@@ -5,7 +5,7 @@ Author：     Amusi
 
 Date：         2018-03-20
 
-Note：         OpenCV3.4以及上支持Facemark
+Note：         **OpenCV3.4+OpenCV-Contrib**以及上支持Facemark
 
 
 
@@ -18,12 +18,13 @@ Note：         OpenCV3.4以及上支持Facemark
 # 测试环境
 
 - Windows10
-
 - Visual Studio 2013
+- [OpenCV3.4.1](https://github.com/opencv/opencv/releases)+[OpenCV-Contrib3.4.1](https://github.com/opencv/opencv_contrib/releases/tag/3.4.1)
 
-- OpenCV3.4.1
 
-  ​
+
+Note：感谢apple ^(oo)^兰 童鞋的提醒，注意本教程一定需要OpenCV-Contrib的支持。即你的OpenCV环境需要使用CMake对OpenCV和OpenCV-Contrib进行编译，生成动态链接库。版本最好是3.4.1。
+
 
 
 
